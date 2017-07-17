@@ -1,3 +1,3 @@
 #!/bin/bash
 echo `uptime`
-echo  `ls -ltr`
+echo  `ls -ltr | grep wc -l`
